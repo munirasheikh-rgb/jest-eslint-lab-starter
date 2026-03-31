@@ -16,6 +16,7 @@ function capitalizeWords(input) {
  * @returns {Array} - An array of active user objects.
  */
 function filterActiveUsers(users) {
+    
     return users.filter(user => user.isActive);
 }
 
